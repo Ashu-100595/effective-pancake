@@ -11,6 +11,7 @@ import {
 import Aboutus from "./routes/Aboutus";
 import Home from "./routes/Home";
 import Services from "./routes/Services";
+import Contacts from "./routes/Contacts";
 import Navbar from "./components/Navbar";
 import "./App.css";
 
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: "services",
         element: <Services />,
+      },
+      {
+        path: "contacts",
+        element: <Contacts />,
       },
     ],
   },
