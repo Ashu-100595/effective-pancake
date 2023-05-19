@@ -20,13 +20,15 @@ function Home() {
         </div>
       </div>
       <div className="img-cont" >
-        <div><img className="phn-img" src="main.png"/></div>
-        <div><img className="user-img shake" src="1.png"/></div>
-        <div><img className="loader-img shake" src="2.png"/></div>
-        <div><img className="cpp-img shake" src="3.png"/></div>
-        <div><img className="tag-img shake" src="4.png"/></div>
-        <div><img className="htl-img shake" src="5.png"/></div>
-        <div><img className="con-img shake" src="6.png"/></div>
+       <div className="anchr-pnt">
+        <img className="phn-img" src="main.png"/>
+        <img className="user-img slide" src="1.png"/>
+        <img className="loader-img slide6" src="2.png"/>
+        <img className="cpp-img slide5" src="3.png"/>
+        <img className="tag-img slide4" src="4.png"/>
+        <img className="htl-img slide2" src="5.png"/>
+        <img className="con-img slide3" src="6.png"/>
+       </div>
       </div>
     </div>
   );
