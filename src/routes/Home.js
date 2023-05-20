@@ -14,7 +14,7 @@ function Home() {
 
         </div>
         <p className="sub-text">Create your website in the best way possible.</p>
-        <div>
+        <div style={{marginBottom:'30px'}}>
           <button className="btn sub-btn">Subscribe</button>
           <button className="btn dem-btn">Demo</button>
         </div>
