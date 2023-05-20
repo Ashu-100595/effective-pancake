@@ -374,51 +374,9 @@ body{
     height: auto;
   }
 
-  /* .phn-img{
-    width: 250px;
-    margin: 50px 0px 0px 0px; 
+  .phn-img{
+    margin: 0px 0px 0px 0px; 
   }
-
-  .user-img{
-    width: 200px;
-    bottom: -9px;
-    left: -100px;
-  }
-  
-  .loader-img{
-    width: 220px;
-    position: absolute;
-    bottom: 0px;
-    left: 110px;
-  }
-  
-  .cpp-img{
-    width: 200px;
-    position: absolute;
-    top: 0px;
-    right: 160px  ;
-  }
-  
-  .tag-img{
-    width: 120px;
-    position: absolute;
-    top: 0px;
-    right: 220px  ;
-  }
-  
-  .htl-img{
-    width: 230px;
-    position: absolute;
-    top: 0px;
-    right: 48px  ;
-  }
-  
-  .con-img{
-    width: 220px;
-    position: absolute;
-    top: 0px;
-    right: 18px;
-  } */
 
   .lay-out{
     flex-direction: row-reverse;
@@ -428,6 +386,30 @@ body{
     width: 100%;
   }
 
+}
+
+
+@media (max-width:425px) {
+
+ .user-img{
+    width: 100px;
+  }
+  
+  .loader-img{
+    width: 160px;
+  }
+  
+  .cpp-img{
+    width: 100px;
+  }
+  
+  .htl-img{
+    width: 120px;
+  }
+  
+  .con-img{
+    width: 140px;
+  }
 }
 
 @keyframes spaceboots {
