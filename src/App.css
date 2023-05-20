@@ -443,37 +443,37 @@ body{
 
 .slide2 {
   -webkit-animation: slide 0.5s forwards;
-  -webkit-animation-delay: 2s;
+  -webkit-animation-delay: 1s;
   animation: slide 0.5s forwards;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 .slide3 {
   -webkit-animation: slide2 0.5s forwards;
-  -webkit-animation-delay: 3s;
+  -webkit-animation-delay: 1s;
   animation: slide2 0.5s forwards;
-  animation-delay: 3s;
+  animation-delay: 1s;
 }
 
 .slide4 {
   -webkit-animation: slide3 0.5s forwards;
-  -webkit-animation-delay: 4s;
+  -webkit-animation-delay: 1s;
   animation: slide3 0.5s forwards;
-  animation-delay: 4s;
+  animation-delay: 1s;
 }
 
 .slide5 {
   -webkit-animation: slide4 0.5s forwards;
-  -webkit-animation-delay: 5s;
+  -webkit-animation-delay: 1s;
   animation: slide4 0.5s forwards;
-  animation-delay: 5s;
+  animation-delay: 1s;
 }
 
 .slide6 {
   -webkit-animation: slide2 0.5s forwards;
-  -webkit-animation-delay: 6s;
+  -webkit-animation-delay: 1s;
   animation: slide5 0.5s forwards;
-  animation-delay: 6s;
+  animation-delay: 1s;
 }
 
 
